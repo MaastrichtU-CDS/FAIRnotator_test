@@ -11,7 +11,7 @@ sparql queries:
 
 These 4 queries mimic the tasks performed by domain experts in the FAIRnotator tooling. Annotating variables and values from their dataset to ontology classes from a common/core data model. 
 
-|  Patients | Run triplifier | | Annotate variable query | | Annotate value query | | Delete variable mapping | | Delete value mapping |
+| Rows | Run triplifier | | Annotate variable query | | Annotate value query | | Delete variable mapping | | Delete value mapping |
 |---|---|---|---|---|---|---|---|---|---|
 |   | Mean (sec) | SD (sec) | Mean (sec) | SD (sec) | Mean (sec) | SD (sec) | Mean (sec) | SD (sec) | Mean (sec) | SD (sec) |
 | 10 | 4.92 | 0.11 | 0.10 | 0.00 | 0.10 | 0.00 | 0.82 | 0.04 | 0.30 | 0.00 |
