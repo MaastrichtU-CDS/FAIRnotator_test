@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dbo="http://um-cds/ontologies/databaseontology/"
+	xmlns:wgs="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:data="http://ab0f4bd79010/rdf/data/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:gn="http://www.geonames.org/ontology#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:db="http://ab0f4bd79010/rdf/ontology/">
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.index">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.id">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sex">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.birth0">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.educationt0">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE4">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.wave">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.I_age_1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hyper">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sys">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.dia">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hbd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.totchol">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hypchol">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hchol">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.medchol">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.diab">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.tabldiab">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.injecdiab">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.v_weight">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.lengte">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.glucose">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hinfresp">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.bypass1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcohol1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcpd">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.smk3cat">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.ondjr2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.visitdate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/TableRow"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.index">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.id">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sex">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.birth0">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.educationt0">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE4">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.wave">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.I_age_1">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hyper">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sys">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.dia">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hbd">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.totchol">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hypchol">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hchol">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.medchol">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.diab">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.tabldiab">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.injecdiab">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.v_weight">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.lengte">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.glucose">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hinfresp">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.bypass1">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcohol1">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcpd">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.smk3cat">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.ondjr2">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.visitdate">
+	<rdfs:subClassOf rdf:resource="http://um-cds/ontologies/databaseontology/ColumnCell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000">
+	<rdfs:label>FAIRnotator1000</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.index">
+	<rdfs:label>FAIRnotator1000.index</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.id">
+	<rdfs:label>FAIRnotator1000.id</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE">
+	<rdfs:label>FAIRnotator1000.APOE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sex">
+	<rdfs:label>FAIRnotator1000.sex</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.birth0">
+	<rdfs:label>FAIRnotator1000.birth0</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.educationt0">
+	<rdfs:label>FAIRnotator1000.educationt0</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE4">
+	<rdfs:label>FAIRnotator1000.APOE4</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.wave">
+	<rdfs:label>FAIRnotator1000.wave</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.I_age_1">
+	<rdfs:label>FAIRnotator1000.I_age_1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hyper">
+	<rdfs:label>FAIRnotator1000.hyper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sys">
+	<rdfs:label>FAIRnotator1000.sys</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.dia">
+	<rdfs:label>FAIRnotator1000.dia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hbd">
+	<rdfs:label>FAIRnotator1000.hbd</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.totchol">
+	<rdfs:label>FAIRnotator1000.totchol</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hypchol">
+	<rdfs:label>FAIRnotator1000.hypchol</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hchol">
+	<rdfs:label>FAIRnotator1000.hchol</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.medchol">
+	<rdfs:label>FAIRnotator1000.medchol</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.diab">
+	<rdfs:label>FAIRnotator1000.diab</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.tabldiab">
+	<rdfs:label>FAIRnotator1000.tabldiab</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.injecdiab">
+	<rdfs:label>FAIRnotator1000.injecdiab</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.v_weight">
+	<rdfs:label>FAIRnotator1000.v_weight</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.lengte">
+	<rdfs:label>FAIRnotator1000.lengte</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.glucose">
+	<rdfs:label>FAIRnotator1000.glucose</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hinfresp">
+	<rdfs:label>FAIRnotator1000.hinfresp</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.bypass1">
+	<rdfs:label>FAIRnotator1000.bypass1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcohol1">
+	<rdfs:label>FAIRnotator1000.alcohol1</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcpd">
+	<rdfs:label>FAIRnotator1000.alcpd</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.smk3cat">
+	<rdfs:label>FAIRnotator1000.smk3cat</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.ondjr2">
+	<rdfs:label>FAIRnotator1000.ondjr2</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.visitdate">
+	<rdfs:label>FAIRnotator1000.visitdate</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000">
+	<dbo:table>FAIRnotator1000</dbo:table>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.index">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.id">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sex">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.birth0">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.educationt0">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE4">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.wave">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.I_age_1">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hyper">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sys">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.dia">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hbd">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.totchol">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hypchol">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hchol">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.medchol">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.diab">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.tabldiab">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.injecdiab">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.v_weight">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.lengte">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.glucose">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hinfresp">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.bypass1">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcohol1">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcpd">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.smk3cat">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.ondjr2">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.visitdate">
+	<dbo:table rdf:resource="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.index">
+	<dbo:column>index</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.id">
+	<dbo:column>id</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE">
+	<dbo:column>APOE</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sex">
+	<dbo:column>sex</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.birth0">
+	<dbo:column>birth0</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.educationt0">
+	<dbo:column>educationt0</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.APOE4">
+	<dbo:column>APOE4</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.wave">
+	<dbo:column>wave</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.I_age_1">
+	<dbo:column>I_age_1</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hyper">
+	<dbo:column>hyper</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.sys">
+	<dbo:column>sys</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.dia">
+	<dbo:column>dia</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hbd">
+	<dbo:column>hbd</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.totchol">
+	<dbo:column>totchol</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hypchol">
+	<dbo:column>hypchol</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hchol">
+	<dbo:column>hchol</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.medchol">
+	<dbo:column>medchol</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.diab">
+	<dbo:column>diab</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.tabldiab">
+	<dbo:column>tabldiab</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.injecdiab">
+	<dbo:column>injecdiab</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.v_weight">
+	<dbo:column>v_weight</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.lengte">
+	<dbo:column>lengte</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.glucose">
+	<dbo:column>glucose</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.hinfresp">
+	<dbo:column>hinfresp</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.bypass1">
+	<dbo:column>bypass1</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcohol1">
+	<dbo:column>alcohol1</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.alcpd">
+	<dbo:column>alcpd</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.smk3cat">
+	<dbo:column>smk3cat</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.ondjr2">
+	<dbo:column>ondjr2</dbo:column>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ab0f4bd79010/rdf/ontology/FAIRnotator1000.visitdate">
+	<dbo:column>visitdate</dbo:column>
+</rdf:Description>
+
+</rdf:RDF>

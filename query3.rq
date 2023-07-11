@@ -1,0 +1,17 @@
+PREFIX db: <http://hn_one.local/rdf/ontology/>
+PREFIX dbo: <http://um-cds/ontologies/databaseontology/>
+PREFIX roo: <http://www.cancerdata.org/roo/>
+PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX epnd: <http://www.epnd.org/>
+
+# Third sparql insert query, delete the variable mapping.
+
+delete {
+    GRAPH <http://annotation.local/>
+    {
+        <http://hn_one.local/rdf/ontology/FAIRnotator1000.APOE> owl:equivalentClass <http://www.epnd.org/APOE>.
+    }
+} where { } 

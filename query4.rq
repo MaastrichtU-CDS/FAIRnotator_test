@@ -1,0 +1,44 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>    
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbo: <http://um-cds/ontologies/databaseontology/>
+PREFIX epnd: <http://www.epnd.org/>
+
+#fourth sparql query, delete value mapping.
+
+WITH <http://annotation.local/>
+    DELETE{
+        ?targetClass owl:equivalentClass ?o;
+                     rdf:type owl:Class.
+        ?o rdf:type owl:Class;
+           owl:intersectionOf ?o1.
+        ?o1 rdf:first ?o2;
+            rdf:rest ?o3.
+        ?o2 owl:onProperty dbo:cell_of;
+            owl:someValuesFrom ?cdm;
+            rdf:type owl:Restriction.
+        ?o3 rdf:first ?o4;
+            rdf:rest rdf:nil.
+        ?o4 rdf:type owl:Restriction;
+            owl:hasValue ?value;
+            owl:onProperty dbo:has_value.
+    }
+    WHERE{
+        BIND(<http://www.epnd.org/E3E4> as ?targetClass)
+        BIND(<http://www.epnd.org/APOE> as ?cdm)
+        ?targetClass owl:equivalentClass ?o;
+                 rdf:type owl:Class.
+        ?o rdf:type owl:Class;
+           owl:intersectionOf ?o1.
+        ?o1 rdf:first ?o2;
+            rdf:rest ?o3.
+        ?o2 owl:onProperty dbo:cell_of;
+            owl:someValuesFrom ?cdm;
+            rdf:type owl:Restriction.
+        ?o3 rdf:first ?o4;
+            rdf:rest rdf:nil.
+        ?o4 rdf:type owl:Restriction;
+            owl:hasValue ?value;
+            owl:onProperty dbo:has_value.
+        VALUES (?value){("E3/E4")}
+    }
