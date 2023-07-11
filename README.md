@@ -1,5 +1,5 @@
 # FAIRnotator_test
-This repository contains mock datasets and sparql queries to test and benchmark the performance of the different components and tasks of the FAIRnotator.  
+This repository contains mock datasets and sparql queries to test and benchmark the performance of the different components and tasks of the FAIRnotator. The test are described in the article (link wil follow) on the FAIRnotator tooling, the data used for the performance description can be found in the FAIRnotator_test_results.pdf file.
 
 The tests were performed with a graphdb triple store initiated from a docker container, the dataset and other requirements are described in the batch script and in the triplifier properties file. The batch script initiates a second docker container running the [triplier tool](https://github.com/MaastrichtU-CDS/triplifier) that converts the dataset to rdf triples and stores them in the graphdb triple store.
 
